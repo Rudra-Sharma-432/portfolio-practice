@@ -26,6 +26,8 @@ body {
 }
 
 #container {
+  height: 100%;
+  
   padding: 70px;
   padding-top: 20px;
 }
@@ -63,15 +65,8 @@ button {
   border: #1a3241 2px solid;
 }
 
-#test-beside-main-image {
-  padding: 0 500px 70px 0;
-}
-
 #main-image {
-  height: 300px;
-  position: absolute;
-  top: 0;
-  right: 140px;
+  width: 45%;
 }
 
 #projects-div {
@@ -159,17 +154,12 @@ button {
     color: var(--light-cyan);
   }
 
-  #main-image {
+  /* #main-image {
     height: 200px;
     position: absolute;
     top: 100px;
     right: 14px;
-  }
-
-
-  #test-beside-main-image {
-    padding: 0 305px 40px 0;
-  }
+  } */
 
   #projects-div {
   display: grid;
